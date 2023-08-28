@@ -4,6 +4,8 @@ source "https://rubygems.org"
 # if there is a super emergency and rubygems is playing up, try
 #source 'http://production.cf.rubygems.org'
 
+ruby '3.0.2'
+
 gem "bootsnap", require: false, platform: :mri
 
 def rails_master?
@@ -279,5 +281,4 @@ gem "net-http"
 
 # Workaround until Ruby ships with cgi version 0.3.6 or higher.
 gem "cgi", ">= 0.3.6", require: false
-
 gem "tzinfo-data"
